@@ -1,25 +1,25 @@
 //Function starts here
 function getContent(fragmentId, callback){
 var pages = {
-                home: `<p>Home</p>  
+                home: `<h1 style="color: green;">Home</h1>
                 <ul>
             <li><a href="#aboutUs">About Us</a></li>
             <li><a href="#contactUs">Contact Us</a></li>
                                                 <li><a href="#settings">Settings</a></li>
     </ul>`,
-                settings: `<p>Settings</p>          
+                settings: `<h1 style="color: green;">Settings</h1>     
                 <ul>
             <li><a href="#home">Home</a></li>
                                                 <li><a href="#aboutUs">About Us</a></li>
             <li><a href="#contactUs">Contact Us</a></li>
     </ul>`,
-                contactUs: `<p>Contact Us</p>
+                contactUs: `<h1 style="color: green;">Contact Us</h1>
                 <ul>
             <li><a href="#home">Home</a></li>
                                                 <li><a href="#aboutUs">About Us</a></li>
             <li><a href="#settings">Settings</a></li>
     </ul>`,
-                aboutUs: `<p>About Us</p>      
+                aboutUs: `<h1 style="color: green;">About Us</h1>      
                 <ul>
             <li><a href="#home">Home</a></li>
                                                 <li><a href="#contactUs">Contact Us</a></li>
